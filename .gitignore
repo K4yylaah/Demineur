@@ -1,0 +1,38 @@
+# Ignorer les fichiers binaires ou de build
+/build/
+/dist/
+/node_modules/
+/*.exe
+/*.dll
+/*.so
+
+# Ignorer les fichiers de log et temporaires
+*.log
+*.tmp
+*.bak
+
+# Ignorer les fichiers spécifiques aux environnements IDE
+/.idea/
+/.vscode/
+/*.suo
+*.user
+*.swp
+
+# Ignorer les fichiers sensibles
+.env
+/config/*.secret.json
+
+# Ignorer les fichiers système
+.DS_Store
+Thumbs.db
+
+# Ignorer les dépendances Python
+__pycache__/
+*.pyc
+*.pyo
+.env/
+.idea/
+.idea
+# Ignorer les fichiers générés par Git
+*.orig
+*.csv
